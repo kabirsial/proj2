@@ -1,0 +1,189 @@
+
+
+Started GET "/" for ::1 at 2015-04-25 21:54:52 -0700
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Library/Ruby/Gems/2.0.0/gems/railties-4.2.1/lib/rails/templates/rails/welcome/index.html.erb (34.3ms)
+Completed 200 OK in 178ms (Views: 134.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-04-25 22:05:13 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 707ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (File to import not found or unreadable: foundation.
+Load paths:
+  /Users/Vinay/Desktop/RailsDeCal/proj2/app/assets/images
+  /Users/Vinay/Desktop/RailsDeCal/proj2/app/assets/javascripts
+  /Users/Vinay/Desktop/RailsDeCal/proj2/app/assets/stylesheets
+  /Users/Vinay/Desktop/RailsDeCal/proj2/vendor/assets/javascripts
+  /Users/Vinay/Desktop/RailsDeCal/proj2/vendor/assets/stylesheets
+  /Library/Ruby/Gems/2.0.0/gems/turbolinks-2.5.3/lib/assets/javascripts
+  /Library/Ruby/Gems/2.0.0/gems/jquery-rails-4.0.3/vendor/assets/javascripts
+  /Library/Ruby/Gems/2.0.0/gems/coffee-rails-4.1.0/lib/assets/javascripts):
+    4:     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    5:     <title><%= content_for?(:title) ? yield(:title) : "Railsdecal Proj1" %></title>
+    6:     <meta name="description" content="<%= content_for?(:description) ? yield(:description) : "Railsdecal Proj1" %>">
+    7:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track' => true %>
+    8:     <%# Modernizr is required for Zurb Foundation %>
+    9:     <%= javascript_include_tag 'vendor/modernizr' %>
+   10:     <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  app/assets/stylesheets/framework_and_overrides.css.scss:2
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___2568825645329824894_70276256568720'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (22.1ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (69.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.8ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (1.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (41.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (196.2ms)
+
+
+Started GET "/" for ::1 at 2015-04-25 22:05:44 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.3ms)
+Completed 500 Internal Server Error in 134ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (File to import not found or unreadable: foundation.
+Load paths:
+  /Users/Vinay/Desktop/RailsDeCal/proj2/app/assets/images
+  /Users/Vinay/Desktop/RailsDeCal/proj2/app/assets/javascripts
+  /Users/Vinay/Desktop/RailsDeCal/proj2/app/assets/stylesheets
+  /Users/Vinay/Desktop/RailsDeCal/proj2/vendor/assets/javascripts
+  /Users/Vinay/Desktop/RailsDeCal/proj2/vendor/assets/stylesheets
+  /Library/Ruby/Gems/2.0.0/gems/turbolinks-2.5.3/lib/assets/javascripts
+  /Library/Ruby/Gems/2.0.0/gems/jquery-rails-4.0.3/vendor/assets/javascripts
+  /Library/Ruby/Gems/2.0.0/gems/coffee-rails-4.1.0/lib/assets/javascripts):
+    2: <html>
+    3: <head>
+    4:   <title>Blog</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/framework_and_overrides.css.scss:2
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___2568825645329824894_70276281047180'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (21.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.1ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (51.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (25.0ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (53.1ms)
+
+
+Started GET "/" for ::1 at 2015-04-25 22:06:13 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 129ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (File to import not found or unreadable: foundation.
+Load paths:
+  /Users/Vinay/Desktop/RailsDeCal/proj2/app/assets/images
+  /Users/Vinay/Desktop/RailsDeCal/proj2/app/assets/javascripts
+  /Users/Vinay/Desktop/RailsDeCal/proj2/app/assets/stylesheets
+  /Users/Vinay/Desktop/RailsDeCal/proj2/vendor/assets/javascripts
+  /Users/Vinay/Desktop/RailsDeCal/proj2/vendor/assets/stylesheets
+  /Library/Ruby/Gems/2.0.0/gems/turbolinks-2.5.3/lib/assets/javascripts
+  /Library/Ruby/Gems/2.0.0/gems/jquery-rails-4.0.3/vendor/assets/javascripts
+  /Library/Ruby/Gems/2.0.0/gems/coffee-rails-4.1.0/lib/assets/javascripts):
+    2: <html>
+    3: <head>
+    4:   <title>Blog</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/framework_and_overrides.css.scss:2
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___2568825645329824894_70276281322820'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_source.erb (22.1ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (51.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (26.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (56.0ms)
+
+
+Started GET "/" for ::1 at 2015-04-25 22:06:50 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 4537ms (Views: 4536.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-565a90fd247bd9ef75cf5f71be1e11e37c3ad80695d8bdfb331fe844afbe0a9e.css?body=1" for ::1 at 2015-04-25 22:06:55 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-04-25 22:06:55 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-04-25 22:06:55 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-04-25 22:06:55 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-04-25 22:06:55 -0700
+
+
+Started GET "/" for ::1 at 2015-04-25 22:08:16 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 99ms (Views: 97.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-04-25 22:08:16 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-04-25 22:08:16 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-04-25 22:08:16 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-04-25 22:08:16 -0700
+
+
+Started GET "/assets/application.self-565a90fd247bd9ef75cf5f71be1e11e37c3ad80695d8bdfb331fe844afbe0a9e.css?body=1" for ::1 at 2015-04-25 22:08:16 -0700
+
+
+Started GET "/" for ::1 at 2015-04-25 22:37:01 -0700
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (61.1ms)
+Completed 200 OK in 2453ms (Views: 2402.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-565a90fd247bd9ef75cf5f71be1e11e37c3ad80695d8bdfb331fe844afbe0a9e.css?body=1" for ::1 at 2015-04-25 22:37:06 -0700
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-04-25 22:37:06 -0700
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-04-25 22:37:06 -0700
+
+
+Started GET "/assets/jquery_ujs.self-8e98a7a072a6cee1372d19fff9ff3e6aa1e39a37d89d6f06861637d061113ee7.js?body=1" for ::1 at 2015-04-25 22:37:06 -0700
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-04-25 22:37:06 -0700
